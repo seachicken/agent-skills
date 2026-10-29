@@ -1,0 +1,21 @@
+{
+  "name": "seachicken",
+  "interface": {
+    "displayName": "Seachicken Skills"
+  },
+  "plugins": [
+    {
+      "name": "seachicken-dev",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/seachicken/agent-skills.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "INSTALLED_BY_DEFAULT",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

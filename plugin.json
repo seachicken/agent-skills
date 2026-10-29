@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "seachicken-dev",
+  "version": "0.1.0",
+  "description": "Reusable development workflow skills.",
+  "repository": "https://github.com/seachicken/agent-skills",
+  "license": "MIT",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Seachicken Dev",
+        "shortDescription": "Reusable development workflow skills",
+        "developerName": "seachicken",
+        "category": "Productivity"
+      }
+    }
+  }
+}
