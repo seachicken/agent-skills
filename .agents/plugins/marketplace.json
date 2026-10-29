@@ -5,14 +5,15 @@
   },
   "plugins": [
     {
-      "name": "seachicken",
+      "name": "change-understanding",
       "source": {
-        "source": "url",
+        "source": "git-subdir",
         "url": "https://github.com/seachicken/agent-skills.git",
-        "ref": "main"
+        "ref": "main",
+        "path": "./plugins/change-understanding"
       },
       "policy": {
-        "installation": "INSTALLED_BY_DEFAULT",
+        "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
       "category": "Productivity"

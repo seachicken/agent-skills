@@ -1,15 +1,15 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "seachicken",
+  "name": "change-understanding",
   "version": "0.1.0",
-  "description": "Reusable development workflow skills.",
+  "description": "Assess understanding of a code change through questions grounded in the diff.",
   "repository": "https://github.com/seachicken/agent-skills",
   "license": "MIT",
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "Seachicken",
-        "shortDescription": "Reusable development workflow skills",
+        "displayName": "Change Understanding",
+        "shortDescription": "Assess understanding of a code change",
         "developerName": "seachicken",
         "category": "Productivity"
       }
