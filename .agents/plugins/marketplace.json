@@ -5,7 +5,7 @@
   },
   "plugins": [
     {
-      "name": "seachicken-dev",
+      "name": "seachicken",
       "source": {
         "source": "url",
         "url": "https://github.com/seachicken/agent-skills.git",
