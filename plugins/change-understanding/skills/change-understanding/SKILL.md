@@ -13,7 +13,7 @@ Ask one short question about a single point at a time and wait for the user's an
 - Flow: concrete inputs, state changes, and outputs.
 - Design: reasons for the approach and relevant tradeoffs.
 - Boundaries: relevant edge cases and failures.
-- Verification: what the tests establish and what remains unverified.
+- Verification: which behavior this change needs tested and how to check it. Choose a concrete case from the diff, rather than defaulting to unit versus integration test coverage.
 
 Judge explanations against the code, not fluency or memorized terminology. Allow looking things up. Include at least one prediction about a new input or a small change to the code. Keep questions proportional to the change; do not invent requirements.
 
